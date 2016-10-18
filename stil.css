@@ -1,0 +1,23 @@
+body{
+     background-color: blanchedalmond;
+}
+ 
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+
+#prvi{  
+    margin-top: 10px;
+}
+  
+#drugi{
+    margin-top: 25px;
+}
+  
+#tekst{
+    font-size: large;
+}
+
+  

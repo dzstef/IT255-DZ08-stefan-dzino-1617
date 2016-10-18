@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<title>Prijava</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel="stylesheet" href="stil.css" type="text/css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+            <div class="container">                
+                <div>
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Početna</a></li>                                    
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="login.html"><span class="glyphicon glyphicon-user"></span> Prijavi se</a></li>
+                         <li><a href="registracija.html"><span class="glyphicon glyphicon-log-in"></span> Registruj se</a></li>
+                     </ul>
+                </div>
+            </div>            
+        </nav>     
+
+ <div class="container"> 
+            <br>
+            <h2>Logovanje</h2>
+                <form action="log.php" method="POST" role="form">
+                   
+                    <div class="form-group">
+                        <label for="text">Username:</label>
+                        <input type="text" class="form-control" name="user">
+                    </div>    
+					<div class="form-group">
+                        <label for="password">Lozinka:</label>
+                        <input type="password" class="form-control" name="pass">
+                    </div>					
+                             
+                    <button type="submit" value="Login" name="submit" class="btn btn-default">Potvrdi</button>
+                </form>
+        </div>
+		
+
+
+
+
+</body>
+</html>
